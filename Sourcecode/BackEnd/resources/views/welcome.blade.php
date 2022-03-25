@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="description" content="E-commerce for selling board games">
+        <meta name="keywords" content="board games,e-commerce,fun,family,categories">
+        <meta name="author" content="Abdallah Marei Orange Academy">
         <title>Laravel</title>
 
         <!-- Fonts -->
