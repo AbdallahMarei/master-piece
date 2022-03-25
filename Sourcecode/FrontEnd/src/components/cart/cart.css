@@ -1,0 +1,86 @@
+.checkout-page {
+    width: 55%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 0;
+  }
+  
+  .checkout-header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgrey;
+  }
+  .header-block {
+    text-transform: capitalize;
+    width: 23%;
+  }
+  .header-block:last-child {
+    width: 8%;
+  }
+  .empty-message-checkout {
+    display: flex;
+    margin: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .go-to-shop {
+    padding: 1rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: #4c4d5f;
+    color: white;
+    border: solid 2px #4c4d5f;
+    cursor: pointer;
+  }
+  .go-to-shop:hover {
+    background: #fff;
+    color: #4c4d5f;
+    
+  }
+  
+  .total {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    font-size: 25px;
+  }
+  .confirm-buy {
+    border-radius: 5px;
+    background-color: #01953f;
+    color: white;
+    border: none;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .confirm-buy:hover {
+    background-color: #087535;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .header-block {
+      font-size: 0.9rem;
+    }
+    .checkout-page {
+      width: 80%;
+    }
+    .total {
+      font-size: 1.1rem;
+    }
+    .confirm-buy {
+      font-size: 1rem;
+    }
+    .empty-message-checkout .go-to-shop {
+      font-size: 0.8rem;
+    }
+    .empty-message-checkout h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
